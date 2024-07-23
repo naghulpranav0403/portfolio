@@ -1,0 +1,15 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end ;
+    justify-content: flex-end;
+}
+.links{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.greeting{
+    align-items: center;
+    margin: 200px;
+}
