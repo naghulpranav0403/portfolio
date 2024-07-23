@@ -10,6 +10,13 @@
     padding-left: 30px;
 }
 .greeting{
+    width: fit-content;
+    height: fit-content;
     align-items: center;
-    margin: 200px;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+    padding: 20px;
+    border: 5px solid black;
 }
