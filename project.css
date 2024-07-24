@@ -1,22 +1,109 @@
 .box{
     display: flex;
     flex-direction: row;
-    align-items: flex-end ;
-    justify-content: flex-end;
+    background-color:aliceblue;
+    justify-content: center;
+   
 }
-.links{
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://wallpapers.com/images/hd/light-color-background-u5ajon1xr9puabyq.jpg')no-repeat center center fixed;
+    
+    background-size: cover;
+}
+
+.links a{
+    width: fit-content;
+    height: fit-content;
     display: flex;
-    padding-top: 5px;
-    padding-left: 30px;
+    justify-content: center;
+    align-items: center;  
+    padding: 10px;
+    margin-left: 10px;
+   text-decoration: none;
+    transition:  200ms ease;
+}
+.links:hover{
+    scale:1.1;
+    box-shadow:0px 0px 10px blue;
+  
+
+ 
 }
 .greeting{
     width: fit-content;
     height: fit-content;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
-    margin-left: 500px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-left: 620px;
+    margin-bottom: 50px;
     padding: 20px;
-    border: 5px solid black;
+    background-color: white;
+    border: 1px solid black;
 }
+.b{
+    text-align: center;   
+}
+.about{
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-style: italic;
+    font: bold;
+   border: 1px solid black;
+    margin-top:50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+}
+.Skills{
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: x-large;
+    background-color: white;
+    margin-top:50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 1px solid black;
+}
+.education{
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: x-large;
+color:black;
+    margin-top:50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.Contact{
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 690px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.photo{
+    
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
