@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center; 
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px; 
     border-radius: 10px; 
     position: absolute;
@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-left: 30px;
+    margin-left: 50px;
    text-decoration: none;
    color:white;
     transition:  200ms ease;
