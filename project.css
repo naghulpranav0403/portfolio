@@ -30,7 +30,7 @@ body {
 }
 .links:hover{
     scale:1.1;
-    text-shadow:0px 0px 30px rgb(255, 255, 255);
+    text-shadow:0px 0px 30px red;
 }
 .greeting{
     width: 100%;
@@ -109,7 +109,7 @@ body {
 }
 .C:hover{
     scale:1.1;
-    text-shadow: 0px 0px 10px blue;
+    text-shadow: 0px 0px 10px red;
 }
 .photo{
     margin-top: 100px;
@@ -117,3 +117,4 @@ body {
     display: flex;
     justify-content: center;
 }
+
