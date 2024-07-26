@@ -30,7 +30,7 @@ body {
 }
 .links:hover{
     scale:1.1;
-    text-shadow:0px 0px 30px purple;
+    text-shadow:0px 0px 30px rgb(255, 0, 255);
 }
 .greeting{
     width: 100%;
